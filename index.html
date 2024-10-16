@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+</head>
+
+<body>
+    <div class="container flex">
+
+        <div class="left blue-boarder  rounded m-1 p-1 ">
+            <div class="close invert">
+                <img width="40" src="/harry/img/close.svg" alt="">
+            </div>
+            <div class="home rounded  bg-grey m-1 p-1">
+                <div class="logo"><img width="150" class="invert" src="/harry/img/logo.svg" alt="logo"></div>
+                <ul>
+                    <li>
+                        <img class="invert" src="/harry/img/home.svg" alt="home">Home
+                    </li>
+                    <li>
+                        <img class="invert" src="/harry/img/search.svg" alt="search">Search
+                    </li>
+                </ul>
+            </div>
+            <div class="library yellow-boarder bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img src="/harry/img/playlist.svg" class="invert" alt="">
+                    <h2>Your library</h2>
+                </div>
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right rounded red-boarder bg-grey ">
+            <div class="header rounded">
+                <div class="nav">
+
+                    <div class="hamburgerCont">
+
+                        <img class="invert close hamburger" src="harry/img/hamburger.svg" alt="">
+                        <img src="/harry/img/arrow-left.svg" alt="">
+                        <img src="/harry/img/arrow-right.svg" alt="">
+                    </div>
+
+                </div>
+                <div class="button">
+                    <button class="signupbtn">Sign up</button>
+                    <button class="loginbtn">Log in</button>
+                </div>
+
+
+            </div>
+
+            <div class="spotifyPlaylists">
+                <h1>Spotify Playlist</h1>
+                <div class="cardContainer">
+                    <div class="card">
+                        <div class="play"><img src="/harry/img/play-btn.svg" alt=""></div>
+
+                        <img src="/harry/img/cover.jpg" alt="">
+                        <h2>Super Hit!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+
+                    </div>
+                    <div class="card">
+                        <div class="play"><img src="/harry/img/play-btn.svg" alt=""></div>
+
+                        <img src="/harry/img/cover.jpg" alt="">
+                        <h2>Super Hit!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+
+                    </div>
+                    <div class="card">
+                        <div class="play"><img src="/harry/img/play-btn.svg" alt=""></div>
+
+                        <img src="/harry/img/cover.jpg" alt="">
+                        <h2>Super Hit!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+
+                    </div>
+
+                </div>
+                <div class="playbar">
+
+
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <span class="areaInfo">
+                            <div class="songinfo"></div>
+                        </span>
+
+                        <div class="songbuttons">
+                            <img class="prevClass invert" id="previous" src="/harry/img/prevsong.svg" hidden alt="">
+                            <img id="play" class="invert" src="/harry/img/play.svg" hidden alt="">
+                            <img class="nextClass invert" id="next" src="/harry/img/nextsong.svg" hidden alt="">
+                        </div>
+                        <div class="voltime">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img width="27" class="invert" src="/harry/img/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
